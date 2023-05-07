@@ -1,0 +1,340 @@
+
+.content-container {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.mateo-img {
+  position: relative;
+  width: 300px;
+  height: auto;
+  margin: 0 auto 40px;
+}
+
+
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+
+
+.center1{
+
+width: 1000px;
+margin-left: 800px;
+color: black;
+
+
+}
+
+
+
+
+
+
+.text1{
+margin-left: 200px;
+margin-right: 200px;
+font-size:large;
+font-style: normal;
+color: black;
+font-weight: bold;
+text-align: justify;
+
+}
+
+.center2{
+  width: 1000px;
+  margin-left: 900px;
+  color:black;
+
+}
+
+.education{
+  display: block;
+  text-align: center;
+
+}
+.info-cv{
+
+  display: block;
+  text-align: center;
+}
+
+.middle{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+
+.awards-etc{
+
+ text-align: center;
+ list-style-position: inside;
+
+}
+
+
+.button1 {
+  display: block;
+  color: black;
+  width: 150px;
+  font-style: italic;
+  margin-top: 30px;
+  clear: both;
+}
+
+
+.projects{
+
+  padding-left: 45%;
+ list-style-type: none;
+}
+
+
+#input1{
+
+margin-top: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size: large;
+width: 600px;
+height: 30px;
+font-family: default;
+}
+
+#input2{
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 30px;
+  font-size: large;
+  font-family: default;
+}
+
+#input3{
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 30px;
+  font-size: large;
+  font-family: default;
+}
+
+#input4{
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 300px;
+  font-size: 150%;
+  font-family: default;
+  margin-bottom: 20px;
+  
+
+}
+
+.form{
+
+ 
+ width: 100vw;
+ height: 100vh;
+ position: fixed;
+ 
+}
+.cf{
+
+margin-top: 200px;
+display: block;
+margin-left: 850px;
+margin-bottom: -280px;
+color: black;
+
+}
+
+
+.image{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+
+.admin-form{
+
+ width: 100vw;
+ height: 100vh;
+ position: fixed;
+ 
+
+}
+
+.admin1{
+
+  margin-top: 200px;
+  display: block;
+  margin-left: 900px;
+  margin-bottom: -280px;
+  color: black;
+
+}
+
+#input5{
+
+  margin-top: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  width: 600px;
+  height: 30px;
+  font-family: default;
+
+}
+
+#input6{
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 30px;
+  font-size: large;
+  font-family: default;
+
+}
+
+#input7{
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  font-size: large;
+  font-family: default;
+}
+
+.home-menu{
+
+  font-size: 30px;
+  color: black;
+  display: inline;
+  
+
+}
+
+.resume-menu{
+
+  font-size: 30px;
+  color: black;
+  display: inline;
+
+
+}
+
+.projects-menu{
+
+
+  font-size: 30px;
+  color: black;
+  display: inline;
+ 
+}
+
+.contact-menu{
+
+
+  font-size: 30px;
+  color: black;
+  display: inline;
+
+
+}
+
+.social-menu{
+
+  font-size: 30px;
+  color: black;
+  display: inline;
+
+
+}
+
+.admin-menu{
+
+  font-size: 30px;
+  color: black;
+  display: inline;
+  
+
+}
+
+.mateo-img{
+
+  margin-top: 50px;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+.table{
+
+display: block;
+margin-left: -10px;
+margin-right: -10px;
+margin-top: -8px;
+background-color: black;
+}
+
+.table2
+{
+  background-color: lightblue;
+}
+
+.th1{
+
+  width: 500px; 
+  height: 50px;
+}
+
+.idk{
+
+  margin-left: 20px;
+}
+
+
+ol li {
+
+  margin-bottom: 20px;
+}
+
+.contact-form-button{
+
+  width: 300px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+

@@ -1,0 +1,120 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: limegreen;
+}
+
+
+#button1 {
+
+margin-left: 160px;
+margin-top: 15px;
+
+}
+
+#button2{
+
+margin-left: 90px;
+margin-top: 15px;
+
+}
+
+#button3{
+
+  margin-left: 90px;
+  margin-top: 15px;
+  
+  }
+
+#button4{
+
+    margin-left: 90px;
+    margin-top: 15px;
+    
+    }
+  
+#button5{
+
+      margin-left: 60px;
+      margin-top: 10px;
+      
+      }
+
+
+
+.block1{
+ 
+ 
+  position: absolute; /*With this I can prevent the div from taking all of the width this time, it will only take the width necessary for the elements inside*/
+  top: 50%; /*50% to the bottom of the body element*/ 
+  left: 50%;/*50% to the right of the body element*/ 
+  transform: translate(-50%,-50%); /*when we use top and left properties we are offsetting the element's position (the div) from the top-left corner by 50% of 
+  its width and height. Therefore, with the translate function we can set the values by -50% which undoes the height and width created on the div. Translate function allows
+  to move the element along the x and y axis by some amount. transform changes how element is displayed visually.*/
+
+}
+
+.block2{
+position: absolute;
+top:0%;
+left: 50%;
+transform: translate(-50%,0);
+
+}
+
+.left-panel {
+
+
+  width: 200px;
+  height: 94.8vh;
+  flex-direction: column;
+  padding-top: 50px;
+  justify-content: space-between;
+  background-color: #333;
+  font-size: 18px;
+ 
+
+}
+
+
+
+.table{
+
+  height: 100vh;
+  margin-right: 20px;
+  margin-top: -50px;
+  border-collapse: collapse;
+  width: 200px;
+
+
+}
+
+.table a{
+
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family:'Courier New', Courier, monospace;
+
+
+}
+
+.table a:hover {
+
+  color: limegreen;
+  transition: 0.5s;
+}
+
+.table td {
+
+
+  border: 6px solid black;
+  padding: 20px 40px;
+  border-radius: 5px;
+  padding-bottom: 100px;
+
+
+}
+
+

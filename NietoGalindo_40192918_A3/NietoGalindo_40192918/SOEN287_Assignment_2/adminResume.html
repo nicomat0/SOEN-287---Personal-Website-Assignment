@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="educational qualifications, skills set, awards, recognitions, work experience and referees"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Resume</title>
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+  
+<div class="left-panel">
+  <div>
+      
+        <table class="table">
+          <tr><td><a href="adminIndex.html">Home</a></td></tr>
+          <tr><td><a href="adminResume.html">Resume</a></td></tr>
+          <tr><td><a href="adminProjects.html">Projects</a></td></tr>
+          <tr><td><a href="adminContact.html">Contact</a></td></tr>
+          <tr><td><a href="adminSocial.html">Social</a></td></tr>
+          <tr><td><a href="logout.html">Logout</a></td></tr>
+        </table>
+    </div>   
+
+</div>
+
+<form action="http://localhost/NIETOGALINDO_40192918/resume.php" method="post">
+<div class="block1">
+<label for="educationalQualification">Educational Qualifications</label> 
+<br/><textarea name="educationalQualification" id="educationalQualification" cols="30" rows="10"></textarea>
+
+<br/><label for="skillSet">Skill Set</label>
+<br/> <textarea name="skillSet" id="skillSet" cols="30" rows="10"></textarea>
+
+<br/> <label for="awardsAndRecognition">Awards/Recognition</label>
+<br/> <textarea name="awardsAndRecognition" id="awardsAndRecognition" cols="30" rows="10"></textarea>
+
+<br/><label for="workExperience">Work Experience</label>
+<br/><textarea name="workExperience" id="workExperience" cols="30" rows="10"></textarea>
+
+<br/><label for="Referees">Referees</label>
+<br/><textarea name="Referees" id="Referees" cols="30" rows="10"></textarea>
+
+<br/> <input type = "submit" id ="button2" value="Submit" onclick="submitResume()"/>
+
+</div>
+
+</form>
+
+<script src="jscode.js" type="text/javascript"></script>
+
+</body>
+</html>
